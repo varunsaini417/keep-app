@@ -11,12 +11,72 @@
 
 header {
     background-color: #f5ba13;
-    margin: auto -16px;
-    padding: 16px 32px;
+    /* margin: auto -16px;
+    padding: 16px 32px; */
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 34px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    
   }
 header h1 {
     color: #fff;
     font-family: "McLaren", cursive;
     font-weight: 200;
 }  
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+
+
+.note {
+  display: flex;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 30vw;
+  margin: 16px;
+  float: left;
+  box-sizing: border-box;
+}
+.note h1 {
+  display: flex;
+  justify-content: start;
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  padding: 25px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  display: flex;
+  justify-content: start;
+  padding: 25px;
+  padding-top: 15px;
+}
+
+/* .note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #f5ba13;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+} */
